@@ -21,7 +21,7 @@ class CategoryMigration extends Migration
             $table->string('icon');
             $table->longText('desc');
             $table->integer('sort');
-            $table->string('link');
+            $table->string('link')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

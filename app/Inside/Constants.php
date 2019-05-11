@@ -12,7 +12,9 @@ class Constants
     const PERMISSIONS_DB = 'permissions';
     const ROLE_PERMISSIONS_DB = 'role_permissions';
     const ROLE_ADMIN_DB = 'role_admin';
-
+    const GROUP_FEATURES_DB = 'group_features';
+    const FEATURES_DB = 'features';
+    const FEATURES_QUESTIONS_ANSWERS_DB = 'features_questions_answers';
 
     //DataBaseName
 
@@ -36,10 +38,10 @@ class Constants
 //    const ROLE_USERS_DB = 'role_users';
 //    const USERS_ACTIVATIONS_DB = 'user_activations';
 //    const BRAND_DB = 'brand';
-//    const FEATURES_DB = 'features';
+
 //    const FEATURES_ANSWERS_DB = 'features_answers';
-//    const FEATURES_QUESTIONS_ANSWERS_DB = 'features_questions_answers';
-//    const GROUP_FEATURES_DB = 'group_features';
+
+
 //    const PRODUCTS_DB = 'products';
 //    const GALLERY_DB = 'gallery';
 //    const CATEGORY_AGENCY_DB = 'category_agency';

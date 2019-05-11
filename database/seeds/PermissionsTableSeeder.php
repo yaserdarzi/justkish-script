@@ -23,6 +23,16 @@ class PermissionsTableSeeder extends Seeder
                 'updated_at' => strtotime(date('Y-m-d H:i:s')),
                 'created_at' => strtotime(date('Y-m-d H:i:s'))
             ], [
+                'route_name' => 'group-features-manage',
+                'description' => '',
+                'updated_at' => strtotime(date('Y-m-d H:i:s')),
+                'created_at' => strtotime(date('Y-m-d H:i:s'))
+            ], [
+                'route_name' => 'features-manage',
+                'description' => '',
+                'updated_at' => strtotime(date('Y-m-d H:i:s')),
+                'created_at' => strtotime(date('Y-m-d H:i:s'))
+            ], [
                 'route_name' => 'category-manage',
                 'description' => '',
                 'updated_at' => strtotime(date('Y-m-d H:i:s')),
@@ -30,11 +40,6 @@ class PermissionsTableSeeder extends Seeder
             ]
 //            , [
 //                'route_name' => 'user-manage',
-//                'description' => '',
-//                'updated_at' => strtotime(date('Y-m-d H:i:s')),
-//                'created_at' => strtotime(date('Y-m-d H:i:s'))
-//            ], [
-//                'route_name' => 'features-manage',
 //                'description' => '',
 //                'updated_at' => strtotime(date('Y-m-d H:i:s')),
 //                'created_at' => strtotime(date('Y-m-d H:i:s'))

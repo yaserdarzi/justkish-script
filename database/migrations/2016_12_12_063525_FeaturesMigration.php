@@ -5,7 +5,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Support\Facades\Schema;
 
-class CategoryMigration extends Migration
+class FeaturesMigration extends Migration
 {
     /**
      * Run the migrations.
@@ -14,19 +14,16 @@ class CategoryMigration extends Migration
      */
     public function up()
     {
-        Schema::create(Constants::CATEGORY_DB, function (Blueprint $table) {
+        Schema::create(Constants::FEATURES_DB, function (Blueprint $table) {
             $table->increments('id');
             $table->bigInteger('type_app_id');
             $table->bigInteger('group_features_id');
             $table->string('title');
-            $table->string('icon');
-            $table->longText('desc')->nullable();
-            $table->integer('sort');
-            $table->string('link')->nullable();
+            $table->longText('description')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
-        Schema::table(Constants::CATEGORY_DB, function (Blueprint $table) {
+        Schema::table(Constants::FEATURES_DB, function (Blueprint $table) {
             $table->foreign('group_features_id')->references('id')->on(Constants::GROUP_FEATURES_DB)->onDelete('cascade');
         });
     }
@@ -38,6 +35,6 @@ class CategoryMigration extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists(Constants::CATEGORY_DB);
+        Schema::dropIfExists(Constants::FEATURES_DB);
     }
 }

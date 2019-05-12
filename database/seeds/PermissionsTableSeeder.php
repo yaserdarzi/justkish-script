@@ -37,14 +37,14 @@ class PermissionsTableSeeder extends Seeder
                 'description' => '',
                 'updated_at' => strtotime(date('Y-m-d H:i:s')),
                 'created_at' => strtotime(date('Y-m-d H:i:s'))
+            ], [
+                'route_name' => 'products-manage',
+                'description' => '',
+                'updated_at' => strtotime(date('Y-m-d H:i:s')),
+                'created_at' => strtotime(date('Y-m-d H:i:s'))
             ]
 //            , [
 //                'route_name' => 'user-manage',
-//                'description' => '',
-//                'updated_at' => strtotime(date('Y-m-d H:i:s')),
-//                'created_at' => strtotime(date('Y-m-d H:i:s'))
-//            ], [
-//                'route_name' => 'products-manage',
 //                'description' => '',
 //                'updated_at' => strtotime(date('Y-m-d H:i:s')),
 //                'created_at' => strtotime(date('Y-m-d H:i:s'))

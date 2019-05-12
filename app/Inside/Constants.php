@@ -15,6 +15,10 @@ class Constants
     const GROUP_FEATURES_DB = 'group_features';
     const FEATURES_DB = 'features';
     const FEATURES_QUESTIONS_ANSWERS_DB = 'features_questions_answers';
+    const PRODUCTS_DB = 'products';
+    const PRODUCTS_GALLERY_DB = 'products_gallery';
+    const PRODUCTS_FEATURES_ANSWERS_DB = 'products_features_answers';
+
 
     //DataBaseName
 
@@ -39,11 +43,7 @@ class Constants
 //    const USERS_ACTIVATIONS_DB = 'user_activations';
 //    const BRAND_DB = 'brand';
 
-//    const FEATURES_ANSWERS_DB = 'features_answers';
 
-
-//    const PRODUCTS_DB = 'products';
-//    const GALLERY_DB = 'gallery';
 //    const CATEGORY_AGENCY_DB = 'category_agency';
 //    const AGENCY_DB = 'agency';
 //    const PRODUCTS_PRICE_AGE_RANGE_DB = 'products_price_age_range';

@@ -18,6 +18,9 @@ class Constants
     const PRODUCTS_DB = 'products';
     const PRODUCTS_GALLERY_DB = 'products_gallery';
     const PRODUCTS_FEATURES_ANSWERS_DB = 'products_features_answers';
+    const SUPPLIER_DB = 'supplier';
+    const SUPPLIER_USERS_DB = 'supplier_users';
+    const PRODUCTS_SUPPLIER_DB = 'products_supplier';
 
 
     //DataBaseName
@@ -47,7 +50,7 @@ class Constants
 //    const CATEGORY_AGENCY_DB = 'category_agency';
 //    const AGENCY_DB = 'agency';
 //    const PRODUCTS_PRICE_AGE_RANGE_DB = 'products_price_age_range';
-//    const PRODUCTS_SUPPLIER_DB = 'products_supplier';
+//
 //    const PRODUCTS_EPISODE_DB = 'products_episode';
 //    const AGENCY_WALLET_CREDIT_DB = 'agency_wallet_credit';
 //    const USERS_WALLET_CREDIT_DB = 'users_wallet_credit';
